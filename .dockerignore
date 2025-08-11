@@ -1,0 +1,25 @@
+# Git
+.git
+.gitignore
+
+# CI/CD
+.github/
+
+# Local caches and build outputs
+dist/
+tmp/
+tmp/**
+*.log
+
+# OS/editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.tmp
+
+# Go
+**/*.test
+coverage.out
+
+
